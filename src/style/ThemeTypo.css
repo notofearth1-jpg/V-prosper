@@ -1,0 +1,107 @@
+.typo-input-value {
+  color: var(--primary-title-color);
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.15px;
+  line-height: 21px;
+}
+
+.typo-input-label {
+  color: var(--input-label-color);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.15px;
+  line-height: 17px;
+}
+
+.typo-input-label-placeholder {
+  color: var(--input-placeholder-color);
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.15px;
+  line-height: 20px;
+}
+
+.typo-input-placeholder::placeholder {
+  color: var(--input-placeholder-color);
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.15px;
+  line-height: 20px;
+}
+
+.typo-error {
+  color: var(--input-error-color);
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.15px;
+  line-height: 19px;
+}
+
+.error-border {
+  border-color: var(--input-error-color);
+  border-width: 1px solid;
+}
+
+.typo-table-header {
+  color: var(--table-header-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.15px;
+  line-height: 20px;
+}
+
+.typo-table-value {
+  color: var(--table-value-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.15px;
+  line-height: 17px;
+}
+
+.typo-status {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.15px;
+  line-height: 17px;
+}
+
+.typo-form-title {
+  color: var(--on-background-color);
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.15px;
+  line-height: 23px;
+}
+
+.typo-btn-primary {
+  color: var(--primary-btn-text-color);
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.22px;
+  line-height: 22px;
+}
+
+.typo-floating-label {
+  color: var(--input-placeholder-color);
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.15px;
+  line-height: 18px;
+}
+
+.typo-floating-dropDown-label {
+  color: var(--input-placeholder-color);
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.15px;
+  /* line-height: 20px; */
+}
+
+.typo-placeholder-floating {
+  color: var(--input-placeholder-color);
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.15px;
+  /* line-height: 20px; */
+}

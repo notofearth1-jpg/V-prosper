@@ -1,0 +1,165 @@
+@media (max-width: 767px) {
+  /* Adjust padding for mobile devices */
+  .mb-12.md\:mb-0.md\:w-8\/12.lg\:w-5\/12.xl\:w-5\/12 {
+    padding: 0;
+  }
+  .main-bg {
+    padding: 15px;
+  }
+  .about-us-section {
+    top: 35%;
+  }
+  .privacy-policy-section {
+    top: 50%;
+  }
+  .bg-defult {
+    background: var(--defult);
+  }
+  .mobile-bg {
+    padding: 15px;
+    background: var(--defult);
+  }
+  .top {
+    margin-top: 25px !important;
+  }
+  p.alt-mobile {
+    color: var(--primary-title-color);
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .input-box {
+    width: 100%;
+  }
+  .select {
+    width: 100%;
+  }
+  .react-datepicker-wrapper {
+    width: 100%;
+  }
+  .react-datepicker__view-calendar-icon input {
+    width: 100%;
+    padding: 6px 10px 5px 35px;
+    outline: none;
+  }
+  .mobile-toggle {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  .sidebar {
+    position: absolute;
+    width: 100%;
+    transform: translatex(-420px);
+    z-index: 999;
+    height: 100vh;
+  }
+
+  .sidebar-open {
+    transform: translateX(0);
+    transition: transform 0.5s ease; /* Adjust the value based on your sidebar width */
+  }
+
+  .home-image-web {
+    width: 45px;
+    height: 45px;
+  }
+  .mobile-view {
+    margin-left: 50px;
+    width: 55%;
+    height: 40px;
+  }
+  i.toggle.bg-black {
+    display: none;
+  }
+  .close-sidebar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+  }
+  .margin-top {
+    margin-top: 20px;
+  }
+  .pie > canvas {
+    margin: 50px;
+  }
+  .social-menu ul li {
+    margin: 0px 10px;
+  }
+  .show-course {
+    font-size: 12px;
+    width: 136px;
+    left: 18.9rem;
+    height: 20px;
+    bottom: 145px;
+  }
+  .vid-sec {
+    position: absolute;
+    bottom: 96%;
+    right: 6%;
+  }
+  .react-responsive-modal-modal {
+    width: 100%;
+  }
+  .favorite-img {
+    height: 148px;
+  }
+  .add-icon {
+    bottom: 94px;
+    right: 20px;
+  }
+  .add-post-icon {
+    bottom: 94px;
+    right: 20px;
+  }
+  .audio-img {
+    height: 40px;
+  }
+  .profile-height {
+    height: 100%;
+  }
+  .nav-public {
+    display: none;
+  }
+  .nav-mobile-public {
+    display: block;
+  }
+  .mobile-carousel {
+    display: block;
+  }
+  .desktop-carousel {
+    display: none;
+  }
+  .public-carousel .css-1f8sh1y {
+    height: 200px !important;
+  }
+  .public-event .css-1f8sh1y {
+    height: 200px !important;
+  }
+  .login-text {
+    letter-spacing: 0.2em;
+    line-height: 36.4px;
+    font-size: 20px;
+  }
+  .auth-screen-spacing {
+    padding: 30px;
+  }
+  .welcome-text {
+    line-height: 36px;
+    letter-spacing: 0.2em;
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--primary-title-color);
+  }
+}
+.custom-button:focus {
+  background-color: var(--primary-button-color);
+}
+
+@media screen and (min-width: 1024px) {
+  .message-container:hover .mess-delete {
+    display: block;
+  }
+}

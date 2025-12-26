@@ -1,0 +1,6 @@
+import {
+  GET_ALL_SERVICE_CATEGORY,
+  GET_BY_ID_SERVICE_CATEGORY,
+} from "./ProductServiceCategoryServices";
+
+export { GET_ALL_SERVICE_CATEGORY, GET_BY_ID_SERVICE_CATEGORY };
